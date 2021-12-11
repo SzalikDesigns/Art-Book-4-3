@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:     Art Book 4:3
+authors:        Szalik
+license:        creative commons CC-BY-NC-SA
+-->
+<theme>
+   <formatVersion>7</formatVersion>
+
+   <include>./metadata-on.xml</include>
+
+	<view name="basic,detailed,video,grid">
+		<!-- Alt-Book style for all metadata background beginning -->
+		<image ifSubset="background-art:on" name="backgroundart" extra="true">
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>./_inc/systems/default/fullscreen.jpg</path>
+			<path>./_inc/systems/fullscreen-bg/basic/${system.theme}-gamelist-basic.jpg</path>
+			<tile>false</tile>
+			<color>ffffff</color>
+			<zIndex>2</zIndex>
+		</image>
+		<!-- Alt-Book style for all metadata background end -->
+
+		<!-- Logo -->
+		<text name="system-name" extra="true">
+			<visible>false</visible>
+		</text>
+		<image name="logo">
+			<visible>true</visible>
+			<origin>0.5 0</origin>
+			<pos>0.5 0.02</pos>
+			<maxSize>0.5 0.1</maxSize>
+		</image>
+	</view>
+
+
+   <view name="detailed,video,grid">
+
+
+   
+      <textlist name="gamelist">
+         <size>0.425 0.825</size>
+         <alignment>left</alignment>
+         <fontSize>0.035</fontSize>
+		 <color>707070</color>
+      </textlist>
+   </view>
+
+   <view name="detailed">
+      <image name="md_image">
+         <origin>0.5 0.5</origin>
+         <pos>0.7375 0.414</pos>
+         <zIndex>2</zIndex>
+      </image>
+   </view>
+
+   <view name="video,grid">
+      <image name="md_image">
+         <visible>true</visible>
+         <origin>0.5 0.5</origin>
+         <!--<pos>0.4375 0.925</pos>-->
+         <pos>0.75 0.8</pos>
+         <maxSize>0.2083333333333333 0.25125</maxSize>
+      </image>
+      <video name="md_video">
+         <pos>0.7375 0.414</pos>
+		  <maxSize>0.4875 0.48125</maxSize>
+				<!-- bypass of resizing video -->
+				<storyboard>
+					<animation property="h" from="1" begin="1" duration="0" mode="linear"/>
+					<animation property="w" from="1" begin="1" duration="0" mode="linear"/>
+					<animation property="x" from="1" begin="1" duration="0" mode="linear"/>
+					<animation property="y" from="1" begin="1" duration="0" mode="linear"/>
+					<animation property="opacity" from="0" to="1" duration="100" mode="linear"/>
+					<animation property="scale" from="1" to="1" duration="0" mode="easeOut"/>
+				</storyboard>
+				<delay>0.1</delay>
+				<showSnapshotNoVideo>false</showSnapshotNoVideo>
+				<showSnapshotDelay>false</showSnapshotDelay>
+			<!-- bypass of resizing video -->
+      </video>
+   </view>
+
+   <view name="grid">
+      <image name="md_image">
+         <visible>false</visible>
+      </image>
+      <imagegrid name="gamegrid">
+         <size>0.34 0.764</size>
+      </imagegrid>
+   </view>
+
+</theme>

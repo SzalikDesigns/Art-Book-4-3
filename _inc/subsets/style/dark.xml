@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!--
+theme name:     Art Book 4:3
+authors:        Szalik
+license:        creative commons CC-BY-NC-SA
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<variables>
+		<!-- Default background color -->
+		<backgroundCustomColor1>000000</backgroundCustomColor1>
+		<backgroundCustomColor2>000000</backgroundCustomColor2>
+		
+		<!-- Font Default color in menu -->
+		<customcolorstandard>999999</customcolorstandard>
+		
+		<!-- Metadata backgrounds SVG -->
+		<metadatamaxflipped>metadata-dark/metadata-max-flipped</metadatamaxflipped>
+		<metadatamax>metadata-dark/metadata-max</metadatamax>
+		<metadataminflipped>metadata-dark/metadata-min-flipped</metadataminflipped>
+		<metadatamin>metadata-dark/metadata-min</metadatamin>
+		<metadataoff>metadata-dark/metadata-off</metadataoff>
+
+		<!-- This option allows me to set different color overlays for the centered -->
+		<airencolor>fullscreen-default</airencolor>
+	</variables>
+
+</theme>

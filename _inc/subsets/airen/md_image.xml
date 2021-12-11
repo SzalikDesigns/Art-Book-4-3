@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+theme name:     Art Book 4:3
+authors:        Szalik
+license:        creative commons CC-BY-NC-SA
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<variables>
+		<!-- Choice of displayed thumbnail -->
+		<airenthumb1>true</airenthumb1>
+		<airenthumb2>false</airenthumb2>
+	</variables>
+
+</theme>

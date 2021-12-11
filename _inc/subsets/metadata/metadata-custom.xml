@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:     Art Book 4:3
+authors:        Szalik
+license:        creative commons CC-BY-NC-SA
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="detailed, basic, grid">
+      <!-- Logo -->
+      <text name="system-name" extra="true">
+         <visible>false</visible>
+      </text>
+      <image name="logo">
+         <visible>true</visible>
+			<origin>0.5 0</origin>
+			<pos>0.5 0.02</pos>
+			<maxSize>0.5 0.1</maxSize>
+      </image>
+	</view>
+
+	<view name="basic">
+		<textlist name="gamelist">
+			<alignment>left</alignment>
+			<pos>0.05 0.2</pos>
+			<size>0.9 0.77</size>
+		</textlist>
+	</view>
+	
+	<view name="detailed">
+		<textlist name="gamelist">
+			<pos>0.02 0.16</pos>
+			<size>0.47 0.85</size>
+			<fontSize>0.035</fontSize>
+			<alignment>left</alignment>
+			<primaryColor>a1a1a1</primaryColor>
+		</textlist>
+	</view>
+
+	<view name="detailed">
+		<text name="md_lbl_genre">
+			<visible>true</visible>
+			<pos>0.5 0.66875</pos><!-- 240,246 -->
+			<size>0.270833333333333 0.0375</size><!-- 130,12 -->
+			<fontSize>0.028125</fontSize><!-- 9 -->
+			<text>Genre</text>
+		</text>
+		<text name="md_genre">
+			<visible>true</visible>
+			<pos>0.5 0.7125</pos><!-- 240,260 -->
+			<size>0.270833333333333 0.05</size><!-- 130,16 -->
+			<fontSize>0.03125</fontSize><!-- 10 -->
+			<color>C0C0C0</color>
+		</text>
+		<text name="md_lbl_publisher">
+			<visible>true</visible>
+			<pos>0.5 0.775</pos><!-- 240,280 -->
+			<size>0.270833333333333 0.0375</size><!-- 130,12 -->
+			<fontSize>0.028125</fontSize><!-- 9 -->
+			<text>Publisher</text>
+			<color>ffffff</color>
+		</text>
+		<text name="md_publisher">
+			<visible>true</visible>
+			<pos>0.5 0.81875</pos><!-- 240,294 -->
+			<size>0.270833333333333 0.05</size><!-- 130,16 -->
+			<fontSize>0.03125</fontSize><!-- 10 -->
+			<color>C0C0C0</color>
+		</text>
+		<text name="md_lbl_rating">
+			<visible>true</visible>
+			<pos>0.791666666666667 0.66875</pos><!-- 380,246 -->
+			<size>0.166666666666667 0.0375</size><!-- 80,12 -->
+			<fontSize>0.028125</fontSize><!-- 9 -->
+			<text>Rating</text>
+		</text>
+		<rating name="md_rating">
+			<visible>true</visible>
+			<pos>0.791666666666667 0.7125</pos><!-- 380,260 -->
+			<size>0 0.046875</size>
+			<filledPath>./_inc/images/star-filled.svg</filledPath>
+			<unfilledPath>./_inc/images/star-empty.svg</unfilledPath>
+			<color>C0C0C0</color>
+		</rating>
+		<text name="md_lbl_releasedate">
+			<visible>true</visible>
+			<pos>0.791666666666667 0.775</pos><!-- 380,280 -->
+			<size>0.166666666666667 0.0375</size><!-- 80,12 -->
+			<fontSize>0.028125</fontSize><!-- 9 -->
+			<text>Released</text>
+		</text>
+		<datetime name="md_releasedate">
+			<visible>true</visible>
+			<pos>0.791666666666667 0.81875</pos><!-- 380,294 -->
+			<size>0.166666666666667 0.05</size><!-- 80,16 -->
+			<fontSize>0.03125</fontSize><!-- 10 -->
+			<color>C0C0C0</color>
+		</datetime>
+	</view>
+	
+	<view name="video">
+		<text name="md_lbl_genre">
+			<visible>true</visible>
+			<pos>0.5 0.76875</pos><!-- 240,246 -->
+			<size>0.270833333333333 0.0375</size><!-- 130,12 -->
+			<fontSize>0.028125</fontSize><!-- 9 -->
+			<text>Genre</text>
+		</text>
+		<text name="md_genre">
+			<visible>true</visible>
+			<pos>0.5 0.8125</pos><!-- 240,260 -->
+			<size>0.270833333333333 0.05</size><!-- 130,16 -->
+			<fontSize>0.03125</fontSize><!-- 10 -->
+			<color>C0C0C0</color>
+		</text>
+		<text name="md_lbl_publisher">
+			<visible>true</visible>
+			<pos>0.5 0.875</pos><!-- 240,280 -->
+			<size>0.270833333333333 0.0375</size><!-- 130,12 -->
+			<fontSize>0.028125</fontSize><!-- 9 -->
+			<text>Publisher</text>
+			<color>ffffff</color>
+		</text>
+		<text name="md_publisher">
+			<visible>true</visible>
+			<pos>0.5 0.91875</pos><!-- 240,294 -->
+			<size>0.270833333333333 0.05</size><!-- 130,16 -->
+			<fontSize>0.03125</fontSize><!-- 10 -->
+			<color>C0C0C0</color>
+		</text>
+		<text name="md_lbl_rating">
+			<visible>true</visible>
+			<pos>0.791666666666667 0.76875</pos><!-- 380,246 -->
+			<size>0.166666666666667 0.0375</size><!-- 80,12 -->
+			<fontSize>0.028125</fontSize><!-- 9 -->
+			<text>Rating</text>
+		</text>
+		<rating name="md_rating">
+			<visible>true</visible>
+			<pos>0.791666666666667 0.8125</pos><!-- 380,260 -->
+			<size>0 0.046875</size>
+			<filledPath>./_inc/images/star-filled.svg</filledPath>
+			<unfilledPath>./_inc/images/star-empty.svg</unfilledPath>
+			<color>C0C0C0</color>
+		</rating>
+		<text name="md_lbl_releasedate">
+			<visible>true</visible>
+			<pos>0.791666666666667 0.875</pos><!-- 380,280 -->
+			<size>0.166666666666667 0.0375</size><!-- 80,12 -->
+			<fontSize>0.028125</fontSize><!-- 9 -->
+			<text>Released</text>
+		</text>
+		<datetime name="md_releasedate">
+			<visible>true</visible>
+			<pos>0.791666666666667 0.91875</pos><!-- 380,294 -->
+			<size>0.166666666666667 0.05</size><!-- 80,16 -->
+			<fontSize>0.03125</fontSize><!-- 10 -->
+			<color>C0C0C0</color>
+		</datetime>
+	</view>
+
+	<view name="detailed, basic, grid">
+
+		<image name="md_image">
+			<origin>0.5 0.5</origin>
+			<pos>0.729166666666667 0.40625</pos><!-- 350,130 -->
+			<maxSize>0.416666666666667 0.425</maxSize><!-- 200,200 -->
+		</image>
+		<image ifSubset="background-art:centered|background-off|screenshots" name="background-arts2" extra="true">
+			<path>./_inc/systems/default/${airencolor}.jpg</path>
+		</image>
+		<image ifSubset="background-art:on" name="background-arts" extra="true">
+			<path>./_inc/systems/default/fullscreen.jpg</path>
+			<path>./_inc/systems/fullscreen-bg/basic/${system.theme}-gamelist-basic.jpg</path>
+		</image>
+
+	</view>
+
+
+
+	<!-- This is most important mask section -->
+	<view name="video">
+		<!-- Logo -->
+		<text name="system-name" extra="true">
+			<visible>false</visible>
+		</text>
+		<image name="logo">
+			<visible>true</visible>
+			<origin>0.5 0</origin>
+			<pos>0.2 0.095</pos>
+			<maxSize>0.25 0.09</maxSize>
+		</image>
+
+		<textlist name="gamelist">
+			<pos>0.0 0.22</pos>
+			<size>0.365 0.8</size>
+			<fontSize>0.03</fontSize>
+			<alignment>left</alignment>
+			<primaryColor>a1a1a1</primaryColor>
+		</textlist>
+
+		<text name="md_lbl_genre">
+			<pos>0.5 0.875</pos>
+		</text>
+		<text name="md_genre">
+			<pos>0.5 0.91875</pos>
+			<color>C0C0C0</color>
+		</text>
+		<text name="md_lbl_publisher">
+			<visible>false</visible>
+		</text>
+		<text name="md_publisher">
+			<visible>false</visible>
+		</text>
+		<image name="md_image">
+			<visible>${airenthumb1}</visible>
+			<origin>0 1</origin>
+			<pos>0.479166666666667 0.84375</pos>
+			<maxSize>0.270833333333333 0.3125</maxSize>
+		</image>
+		<image name="md_marquee">
+			<visible>${airenthumb2}</visible>
+			<origin>0 1</origin>
+			<pos>0.479166666666667 0.84375</pos>
+			<maxSize>0.270833333333333 0.3125</maxSize>
+		</image>
+		<video name="md_video">
+			<origin>0.5 0.5</origin>
+			<pos>0.729166666666667 0.375</pos>
+			<maxSize>1.1 1.6</maxSize>
+			
+			<!-- bypass of resizing video -->
+			<storyboard>
+				<animation property="h" from="1" begin="1" duration="0" mode="linear"/>
+				<animation property="w" from="1" begin="1" duration="0" mode="linear"/>
+				<animation property="x" from="1" begin="1" duration="0" mode="linear"/>
+				<animation property="y" from="1" begin="1" duration="0" mode="linear"/>
+				<animation property="opacity" from="0" to="1" duration="100" mode="linear"/>
+				<animation property="scale" from="1" to="1" duration="0" mode="easeOut"/>
+			</storyboard>
+			<delay>0.1</delay>
+			<showSnapshotNoVideo>false</showSnapshotNoVideo>
+			<showSnapshotDelay>false</showSnapshotDelay>
+			<!-- bypass of resizing video -->
+		</video>
+		<image ifSubset="background-art:centered|background-off|screenshots" name="md-media-mask" extra="true">
+			<path>./_inc/systems/default/centered/${airencolor}.png</path>
+		</image>
+		<image ifSubset="background-art:on" name="md-media-mask" extra="true">
+			<path>./_inc/systems/default/${airencolor}.png</path>
+			<path>./_inc/systems/fullscreen-bg/metadata/${system.theme}-gamelist-metadata.png</path>
+		</image>
+
+   </view>
+
+</theme>

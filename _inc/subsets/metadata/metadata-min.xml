@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:     Art Book 4:3
+authors:        Szalik
+license:        creative commons CC-BY-NC-SA
+-->
+<theme>
+   <formatVersion>7</formatVersion>
+
+   <include>./metadata-on.xml</include>
+
+	<view name="basic,detailed,video,grid">
+		<!-- Alt-Book style for all metadata background beginning -->
+		<image ifSubset="background-art:on" name="backgroundart" extra="true">
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>./_inc/systems/default/fullscreen.jpg</path>
+			<path>./_inc/systems/fullscreen-bg/basic/${system.theme}-gamelist-basic.jpg</path>
+			<tile>false</tile>
+			<color>ffffff</color>
+			<zIndex>2</zIndex>
+		</image>
+		<!-- Alt-Book style for all metadata background end -->
+
+		<!-- Logo -->
+		<text name="system-name" extra="true">
+			<visible>false</visible>
+		</text>
+		<image name="logo">
+			<visible>true</visible>
+			<origin>0.5 0</origin>
+			<pos>0.5 0.02</pos>
+			<maxSize>0.5 0.1</maxSize>
+		</image>
+	</view>
+
+
+   <view name="detailed,video,grid">
+		<textlist name="gamelist">
+			<size>0.47 0.825</size>
+			<fontSize>0.038</fontSize>
+			<pos>0.035 0.15</pos>
+			<alignment>left</alignment>
+			<color>707070</color>
+		</textlist>
+      <text name="md_name">
+         <visible>false</visible>
+         <pos>0.51 .635</pos>
+         <size>0.5 0.05</size>
+         <fontSize>0.036</fontSize>
+      </text>
+      <rating name="md_rating">
+         <visible>true</visible>
+         <pos>0.54 .65</pos>
+         <size>0 0.04375</size>
+         <filledPath>./_inc/images/star-filled.svg</filledPath>
+         <unfilledPath>./_inc/images/star-empty.svg</unfilledPath>
+		 <color>A0A0A0</color>
+      </rating>
+      <datetime name="md_releasedate">
+         <visible>true</visible>
+         <pos>0.7575 .65</pos>
+         <size>0.2 0.05</size>
+         <fontSize>0.035</fontSize>
+		  <color>A0A0A0</color>
+      </datetime>
+      <text name="md_description">
+         <visible>true</visible>
+         <pos>0.54 .7</pos>
+         <size>0.4 0.17</size>
+         <fontSize>0.03</fontSize>
+		 <color>B0B0B0</color>
+      </text>
+      <image name="md_image">
+			<tile>false</tile>
+         <pos>0.7575 0.414</pos>
+      </image>
+
+   </view>
+
+   <view name="video,grid">
+		<video name="md_video">
+			<pos>0.7375 0.374</pos>
+			
+			<!-- bypass of resizing video -->
+				<storyboard>
+					<!-- x, y, w, h-->
+					<!-- x, y, w, h-->
+					<animation property="h" from="1" begin="1" duration="0" mode="linear"/>
+					<animation property="w" from="1" begin="1" duration="0" mode="linear"/>
+					<animation property="x" from="1" begin="1" duration="0" mode="linear"/>
+					<animation property="y" from="1" begin="1" duration="0" mode="linear"/>
+					<animation property="opacity" from="0" to="1" duration="100" mode="linear"/>
+					<animation property="scale" from="1" to="1" duration="0" mode="easeOut"/>
+				</storyboard>
+				<delay>0.1</delay>
+				<showSnapshotNoVideo>false</showSnapshotNoVideo>
+				<showSnapshotDelay>false</showSnapshotDelay>
+			<!-- bypass of resizing video -->
+				
+			</video>
+   </view>
+
+   <view name="grid">
+      <imagegrid name="gamegrid">
+         <size>0.425 0.764</size>
+      </imagegrid>
+   </view>
+
+</theme>

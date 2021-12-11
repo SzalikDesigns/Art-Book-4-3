@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:     Art Book 4:3
+authors:        Szalik
+license:        creative commons CC-BY-NC-SA
+-->
+<theme>
+   <formatVersion>7</formatVersion>
+
+   <include>./metadata-on.xml</include>
+   <include>./metadata-min.xml</include>
+  
+	<view name="basic,detailed,video,grid">
+		<!-- Alt-Book style for all metadata background beginning -->
+		<image ifSubset="background-art:on" name="backgroundart" extra="true">
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>./_inc/systems/default/fullscreen.jpg</path>
+			<path>./_inc/systems/fullscreen-bg/basic/${system.theme}-gamelist-basic.jpg</path>
+			<tile>false</tile>
+			<color>ffffff</color>
+			<zIndex>2</zIndex>
+		</image>
+		<!-- Alt-Book style for all metadata background end -->
+		
+		<!-- Logo -->
+		<text name="system-name" extra="true">
+			<visible>false</visible>
+		</text>
+		<image name="logo">
+			<visible>true</visible>
+			<origin>0.5 0</origin>
+			<pos>0.5 0.02</pos>
+			<maxSize>0.5 0.1</maxSize>
+		</image>
+	</view>
+
+   <view name="detailed,video,grid">
+
+      <!-- Genre & Name -->
+      <text name="md_genre">
+         <visible>true</visible>
+         <pos>0.05 0.14</pos>
+         <size>0.38 0.025</size>
+         <fontSize>0.028125</fontSize>
+		 <color>747171</color>
+      </text>
+      <textlist name="gamelist">
+         <pos>0.05 0.18</pos>
+         <size>0.38 0.09</size>
+         <horizontalMargin>0</horizontalMargin>
+         <fontSize>0.0375</fontSize>
+      </textlist>
+      <text name="md_name">
+         <visible>false</visible>
+      </text>
+
+      <!-- Rating & Release Date -->
+      <rating name="md_rating">
+         <pos>0.05 0.255</pos>
+         <size>0 0.04375</size>
+         <backgroundColor>FF0000</backgroundColor>
+      </rating>
+      <datetime name="md_releasedate">
+         <pos>0.23 0.255</pos>
+         <size>0.1666666666666667 0.05</size>
+         <fontSize>0.028125</fontSize>
+      </datetime>
+
+      <image name="md_divider_1,md_divider_2,md_divider_3" extra="true">
+         <origin>0 0</origin>
+         <size>0.38 0.003125</size>
+         <path>${spacerImage}</path>
+         <tile>true</tile>
+         <zIndex>4</zIndex>
+         <color>4d4b4b</color>
+      </image>
+      <image name="md_divider_1" extra="true">
+         <pos>0.05 0.32</pos>
+      </image>
+
+      <!-- Last Played -->
+      <text name="md_lbl_lastplayed">
+         <visible>true</visible>
+         <pos>0.05 0.34</pos>
+         <size>0.2 0.03</size>
+         <fontSize>0.03</fontSize>
+         <forceUppercase>true</forceUppercase>
+         <text>Last Play:</text>
+		 <color>A0A0A0</color>
+      </text>
+      <datetime name="md_lastplayed">
+         <visible>true</visible>
+         <pos>0.21 0.34</pos>
+         <size>0.2 0.03</size>
+         <fontSize>0.03</fontSize>
+         <forceUppercase>true</forceUppercase>
+		 <color>A0A0A0</color>
+      </datetime>
+
+      <!-- Playcount -->
+      <text name="md_lbl_playcount">
+         <visible>true</visible>
+         <pos>0.05 0.395</pos>
+         <size>0.2 0.03</size>
+         <fontSize>0.03</fontSize>
+         <forceUppercase>true</forceUppercase>
+         <text># of play:</text>
+		 <color>A0A0A0</color>
+      </text>
+      <text name="md_playcount">
+         <visible>true</visible>
+         <pos>0.21 0.395</pos>
+         <size>0.2 0.03</size>
+         <fontSize>0.03</fontSize>
+		 <color>A0A0A0</color>
+      </text>
+
+      <!-- Gametime -->
+      <text name="md_lbl_gametime">
+         <visible>true</visible>
+         <pos>0.05 0.45</pos>
+         <size>0.2 0.03</size>
+         <fontSize>0.03</fontSize>
+         <forceUppercase>true</forceUppercase>
+         <text>Time Play:</text>
+		 <color>A0A0A0</color>
+      </text>
+      <text name="md_gametime">
+         <visible>true</visible>
+         <pos>0.21 0.45</pos>
+         <size>0.2 0.028125</size>
+         <fontSize>0.028125</fontSize>
+         <forceUppercase>true</forceUppercase>
+		 <color>A0A0A0</color>
+      </text>
+      <image name="md_divider_3" extra="true">
+         <pos>0.05 0.51</pos>
+      </image>
+      <!-- Developer -->
+      <text name="md_lbl_developer">
+         <visible>true</visible>
+         <pos>0.05 0.54</pos>
+         <size>0.2 0.028125</size>
+         <fontSize>0.028125</fontSize>
+         <forceUppercase>true</forceUppercase>
+         <text>Developer: </text>
+		 <color>A0A0A0</color>
+      </text>
+      <text name="md_developer">
+         <visible>true</visible>
+         <pos>0.21 0.54</pos>
+         <size>0.2 0.028125</size>
+         <fontSize>0.028125</fontSize>
+		 <color>A0A0A0</color>
+      </text>
+
+      <!-- Publisher -->
+      <text name="md_lbl_publisher">
+         <visible>true</visible>
+         <pos>0.05 0.59</pos>
+         <size>0.2 0.028125</size>
+         <fontSize>0.028125</fontSize>
+         <forceUppercase>true</forceUppercase>
+         <text>Publisher: </text>
+		 <color>A0A0A0</color>
+      </text>
+      <text name="md_publisher">
+         <visible>true</visible>
+         <pos>0.21 0.59</pos>
+         <size>0.2 0.028125</size>
+         <fontSize>0.028125</fontSize>
+		 <color>A0A0A0</color>
+      </text>
+
+      <image name="md_divider_2" extra="true">
+         <pos>0.05 0.64</pos>
+      </image>
+
+      <!-- Description -->
+      <text name="md_description">
+         <visible>true</visible>
+         <origin>0.5 0.5</origin>
+         <pos>.71 .79</pos>
+		 <size>0.4 0.25</size>
+         <fontSize>0.035</fontSize>
+      </text>
+
+      
+   </view>
+
+   <view name="detailed">
+      <image name="md_image">
+         <origin>0.5 0.5</origin>
+         <pos>0.6979166666666667 0.546875</pos>
+         <maxSize>0.4791666666666667 0.71875</maxSize>
+         <zIndex>2</zIndex>
+      </image>
+   </view>
+
+   <view name="video,grid">
+      <image name="md_image">
+         <visible>true</visible>
+         <origin>0.5 1</origin>
+         <pos>0.25 0.925</pos>
+         <maxSize>0.2 0.25</maxSize>
+      </image>
+      <video name="md_video">
+         <pos>0.7 0.4</pos>
+         <maxSize>0.4875 0.48125</maxSize>
+				<!-- bypass of resizing video -->
+				<storyboard>
+					<animation property="h" from="1" begin="1" duration="0" mode="linear"/>
+					<animation property="w" from="1" begin="1" duration="0" mode="linear"/>
+					<animation property="x" from="1" begin="1" duration="0" mode="linear"/>
+					<animation property="y" from="1" begin="1" duration="0" mode="linear"/>
+					<animation property="opacity" from="0" to="1" duration="100" mode="linear"/>
+					<animation property="scale" from="1" to="1" duration="0" mode="easeOut"/>
+				</storyboard>
+				<delay>0.1</delay>
+				<showSnapshotNoVideo>false</showSnapshotNoVideo>
+				<showSnapshotDelay>false</showSnapshotDelay>
+			<!-- bypass of resizing video -->
+      </video>
+   </view>
+
+   <view name="grid">
+      <imagegrid name="gamegrid">
+         <pos>1 1</pos>
+      </imagegrid>
+   </view>
+
+</theme>
