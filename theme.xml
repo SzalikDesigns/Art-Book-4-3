@@ -316,6 +316,7 @@ license:        creative commons CC-BY-NC-SA
 	<subset name="background-art" displayName="System View Art: ">
 		<include name="on" displayName="Full Screen">./_inc/subsets/backgrounds/background-art-fullscreen.xml</include>
 		<include name="centered" displayName="Centered ">./_inc/subsets/backgrounds/background-art-on.xml</include>
+		<include name="carbon" displayName="Carbon">./_inc/subsets/backgrounds/background-art-carbon.xml</include>
 		<include name="screenshots" displayName="Screenshots (WIP)">./_inc/subsets/backgrounds/background-art-screenshots.xml</include>
 		<include name="background-off" displayName="No Artwork">./_inc/subsets/backgrounds/background-art-off.xml</include>
 	</subset>

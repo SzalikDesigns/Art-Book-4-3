@@ -167,7 +167,7 @@ license:        creative commons CC-BY-NC-SA
 			<pos>0.729166666666667 0.40625</pos><!-- 350,130 -->
 			<maxSize>0.416666666666667 0.425</maxSize><!-- 200,200 -->
 		</image>
-		<image ifSubset="background-art:centered|background-off|screenshots" name="background-arts2" extra="true">
+		<image ifSubset="background-art:centered|background-off|screenshots|carbon" name="background-arts2" extra="true">
 			<path>./_inc/systems/default/${airencolor}.jpg</path>
 		</image>
 		<image ifSubset="background-art:on" name="background-arts" extra="true">
@@ -244,7 +244,7 @@ license:        creative commons CC-BY-NC-SA
 			<showSnapshotDelay>false</showSnapshotDelay>
 			<!-- bypass of resizing video -->
 		</video>
-		<image ifSubset="background-art:centered|background-off|screenshots" name="md-media-mask" extra="true">
+		<image ifSubset="background-art:centered|background-off|screenshots|carbon" name="md-media-mask" extra="true">
 			<path>./_inc/systems/default/centered/${airencolor}.png</path>
 		</image>
 		<image ifSubset="background-art:on" name="md-media-mask" extra="true">
