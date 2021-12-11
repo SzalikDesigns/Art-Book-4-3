@@ -1,4 +1,4 @@
-# Art Book 4:3 EmulationStation theme for 640x480 Devices
+# Art Book 4:3 ES theme for 640x480 Devices
 Default 351ELEC theme specialy made for 4:3 aspect ratio.
 
 ## Previews
