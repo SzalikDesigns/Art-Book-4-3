@@ -112,14 +112,5 @@
      id="path26"
      style="fill:#ff0000;stroke-width:1.14643264"
      inkscape:connector-curvature="0" />
-  <path
-     d="m 490.228,120.92791 h -0.8025 v -7.45181 h -2.75144 v -0.8025 h 6.42003 v 0.8025 H 490.228 Z"
-     id="path28"
-     style="fill:#ff0000;stroke-width:1.14643264"
-     inkscape:connector-curvature="0" />
-  <path
-     d="m 498.36768,119.43755 2.75143,-6.76395 h 1.26108 v 8.25431 h -0.8025 v -7.10788 l -2.98073,7.10788 h -0.45857 l -2.98073,-7.10788 v 7.10788 h -0.8025 v -8.25431 h 1.26108 z"
-     id="path30"
-     style="fill:#ff0000;stroke-width:1.14643264"
-     inkscape:connector-curvature="0" />
+ 
 </svg>

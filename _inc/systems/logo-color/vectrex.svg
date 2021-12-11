@@ -156,11 +156,6 @@
              style="fill:#0000aa;fill-rule:nonzero;stroke-width:4.01947927" />
         </g>
       </g>
-      <path
-         d="M 473.03591,63.379174 V 57.95009 H 471 V 57 h 5.29336 v 0.95009 H 473.986 v 5.429084 z m 3.80036,0 V 57 h 1.62872 l 1.62873,5.15763 L 481.72244,57 h 1.493 v 6.379174 h -0.95009 V 57.95009 l -1.62873,5.429084 h -0.95009 l -1.76445,-5.429084 v 5.429084 z"
-         id="Shape"
-         inkscape:connector-curvature="0"
-         style="fill:#ffffff;fill-rule:nonzero" />
-    </g>
+
   </g>
 </svg>
