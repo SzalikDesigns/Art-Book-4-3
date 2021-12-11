@@ -19,6 +19,12 @@ license:        creative commons CC-BY-NC-SA
 		<include name="blind-off" displayName="BIG">./_inc/subsets/blind/yes.xml</include>
 	</subset>
 
+	<!-- Font Size and Style -->
+	<subset name="colorlogo" displayName="Color Logos: ">
+		<include name="no" displayName="No">./_inc/subsets/logocolor/no.xml</include>
+		<include name="yes" displayName="Yes">./_inc/subsets/logocolor/yes.xml</include>
+	</subset>
+
 	<!-- Theme Style -->
 	<subset name="themestyle" displayName="Theme Style: ">
 		<include name="light" displayName="Gray">./_inc/subsets/style/light.xml</include>
@@ -46,15 +52,15 @@ license:        creative commons CC-BY-NC-SA
 			<pos>1 1</pos>
 		</helpsystem>
 		<image name="logo">
-			<path>./_inc/systems/logos/${system.theme}.svg</path>
-			<path>./_inc/systems/logos/arcade/${system.theme}.svg</path>
-			<path>./_inc/systems/logos/atari/${system.theme}.svg</path>
-			<path>./_inc/systems/logos/auto/${system.theme}.svg</path>
-			<path>./_inc/systems/logos/genre/${system.theme}.svg</path>
-			<path>./_inc/systems/logos/nintendo/${system.theme}.svg</path>
-			<path>./_inc/systems/logos/sega/${system.theme}.svg</path>
-			<path>./_inc/systems/logos/sony/${system.theme}.svg</path>
-			<path>./_inc/systems/logos/system/${system.theme}.svg</path>
+			<path>./_inc/systems/${logocolor}/${system.theme}.svg</path>
+			<path>./_inc/systems/${logocolor}/arcade/${system.theme}.svg</path>
+			<path>./_inc/systems/${logocolor}/atari/${system.theme}.svg</path>
+			<path>./_inc/systems/${logocolor}/auto/${system.theme}.svg</path>
+			<path>./_inc/systems/${logocolor}/genre/${system.theme}.svg</path>
+			<path>./_inc/systems/${logocolor}/nintendo/${system.theme}.svg</path>
+			<path>./_inc/systems/${logocolor}/sega/${system.theme}.svg</path>
+			<path>./_inc/systems/${logocolor}/sony/${system.theme}.svg</path>
+			<path>./_inc/systems/${logocolor}/system/${system.theme}.svg</path>
 		</image>
 		<text name="logoText">
 			<fontPath>${logoFont}</fontPath>
