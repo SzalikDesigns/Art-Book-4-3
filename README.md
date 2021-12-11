@@ -1,5 +1,5 @@
 # Art Book 4:3 EmulationStation theme for 640x480 Devices
-A simple theme for Emulation Station based on the look of a coffee table book.  Built and tested on 351ELEC for the RG351V handheld.
+Default 351ELEC theme specialy made for 4:3 aspect ratio.
 
 ## Previews
 Fullscreen
@@ -35,9 +35,8 @@ Metadata
 
 
 ## Acknowledgments
-- Original Theme 3:2: **anthonycaccese** https://github.com/anthonycaccese
+- Original Theme used as a base here 3:2: **anthonycaccese** https://github.com/anthonycaccese
 - 351ELEC - https://github.com/351ELEC/351ELEC
-- Some logo graphics are modified from the Carbon theme by Eric Hettervik
 - Nunito fonts by Vernon Adams
 - Alternative Centered System Images by **Freepik** 
 
