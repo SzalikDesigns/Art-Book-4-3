@@ -11,26 +11,36 @@ license:        creative commons CC-BY-NC-SA
 
 	<view name="basic,detailed,video,grid">
 		<!-- Alt-Book style for all metadata background beginning -->
-		<image ifSubset="background-art:on" name="backgroundart" extra="true">
-			<origin>0 0</origin>
-			<pos>0 0</pos>
-			<size>1 1</size>
-			<path>./_inc/systems/default/fullscreen.jpg</path>
-			<path>./_inc/systems/fullscreen-bg/basic/${system.theme}-gamelist-basic.jpg</path>
-			<tile>false</tile>
-			<color>ffffff</color>
-			<zIndex>2</zIndex>
-		</image>
+			<image ifSubset="background-art:on" name="backgroundart" extra="true">
+				<origin>0 0</origin>
+				<pos>0 0</pos>
+				<size>1 1</size>
+				<path>./_inc/systems/default/fullscreen.jpg</path>
+				<path>./_inc/systems/fullscreen-bg/basic/${system.theme}-gamelist-basic.jpg</path>
+				<tile>false</tile>
+				<color>ffffff</color>
+				<zIndex>2</zIndex>
+			</image>
 
-		<image ifSubset="background-art:nes" name="backgroundart" extra="true">
-			<origin>0 0</origin>
-			<pos>0 0</pos>
-			<size>1 1</size>
-			<path>./_inc/systems/default/nesback2.png</path>
-			<tile>false</tile>
-			<color>ffffff</color>
-			<zIndex>2</zIndex>
-		</image>
+			<image ifSubset="background-art:nes" name="backgroundart" extra="true">
+				<origin>0 0</origin>
+				<pos>0 0</pos>
+				<size>1 1</size>
+				<path>./_inc/systems/default/nesback2.png</path>
+				<tile>false</tile>
+				<color>ffffff</color>
+				<zIndex>2</zIndex>
+			</image>
+
+			<image ifSubset="background-art:minimal" name="backgroundart" extra="true">
+				<origin>0 0</origin>
+				<pos>0 0</pos>
+				<size>1 1</size>
+				<path>./_inc/systems/default/fullscreen-minimal.jpg</path>
+				<tile>false</tile>
+				<color>ffffff</color>
+				<zIndex>2</zIndex>
+			</image>
 		<!-- Alt-Book style for all metadata background end -->
 
 		<!-- Logo -->
