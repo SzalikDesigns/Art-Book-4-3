@@ -40,3 +40,8 @@ Metadata
 - Nunito fonts by Vernon Adams
 - Alternative Centered System Images by **Freepik** 
 - Part of Carbon arts: fabricecaruso, tronkyfran 
+
+## License
+This theme is being actively developed, a great deal of work has been put into the theme and art so please do not use the graphics I have created in other projects.
+
+You are free to modify the theme for your personal use
