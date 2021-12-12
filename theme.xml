@@ -29,6 +29,7 @@ license:        creative commons CC-BY-NC-SA
 	<subset name="themestyle" displayName="Theme Style: ">
 		<include name="light" displayName="Gray">./_inc/subsets/style/light.xml</include>
 		<include name="dark" displayName="Dark">./_inc/subsets/style/dark.xml</include>
+		<include name="nes" displayName="Nes">./_inc/subsets/style/nes.xml</include>
 	</subset>
 
 	<!-- Color Sets -->
@@ -246,6 +247,7 @@ license:        creative commons CC-BY-NC-SA
 			<imageColor>ffffffff</imageColor>
 		</gridtile>
 		<text name="gridtile">
+			<padding>-1 0</padding>
 			<alignment>center</alignment>
 			<fontPath>${bodyFont}</fontPath>
 			<fontSize>0.036</fontSize>
@@ -284,8 +286,9 @@ license:        creative commons CC-BY-NC-SA
 			<fontSize>${menutextsmallFontSize}</fontSize>
 			<color>${customcolorsubheader}</color>
 		</menuTextSmall>
-		<menuBackground name="menubg">
-			<color>${backgroundCustomColor1}</color>
+		<menuBackground  name="menubg">
+			<!--<color>${backgroundCustomColor1}</color>!-->
+			<path>./_inc/systems/default/${airencolor}.jpg</path>
 			<cornerSize>20 20</cornerSize>
 		</menuBackground>
 	</view>
@@ -328,6 +331,7 @@ license:        creative commons CC-BY-NC-SA
 		<include name="on" displayName="Full Screen">./_inc/subsets/backgrounds/background-art-fullscreen.xml</include>
 		<include name="centered" displayName="Centered ">./_inc/subsets/backgrounds/background-art-on.xml</include>
 		<include name="carbon" displayName="Carbon">./_inc/subsets/backgrounds/background-art-carbon.xml</include>
+		<include name="nes" displayName="Nes (WIP)">./_inc/subsets/backgrounds/background-art-nes.xml</include>
 		<include name="screenshots" displayName="Screenshots (WIP)">./_inc/subsets/backgrounds/background-art-screenshots.xml</include>
 		<include name="background-off" displayName="No Artwork">./_inc/subsets/backgrounds/background-art-off.xml</include>
 	</subset>

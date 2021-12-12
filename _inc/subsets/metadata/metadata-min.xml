@@ -21,6 +21,16 @@ license:        creative commons CC-BY-NC-SA
 			<color>ffffff</color>
 			<zIndex>2</zIndex>
 		</image>
+
+		<image ifSubset="background-art:nes" name="backgroundart" extra="true">
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>./_inc/systems/default/nesback2.png</path>
+			<tile>false</tile>
+			<color>ffffff</color>
+			<zIndex>2</zIndex>
+		</image>
 		<!-- Alt-Book style for all metadata background end -->
 
 		<!-- Logo -->
@@ -84,21 +94,18 @@ license:        creative commons CC-BY-NC-SA
 			<pos>0.7375 0.374</pos>
 			
 			<!-- bypass of resizing video -->
-				<storyboard>
-					<!-- x, y, w, h-->
-					<!-- x, y, w, h-->
+			<storyboard>
 					<animation property="h" from="1" begin="1" duration="0" mode="linear"/>
 					<animation property="w" from="1" begin="1" duration="0" mode="linear"/>
 					<animation property="x" from="1" begin="1" duration="0" mode="linear"/>
 					<animation property="y" from="1" begin="1" duration="0" mode="linear"/>
 					<animation property="opacity" from="0" to="1" duration="100" mode="linear"/>
 					<animation property="scale" from="1" to="1" duration="0" mode="easeOut"/>
-				</storyboard>
-				<delay>0.1</delay>
-				<showSnapshotNoVideo>false</showSnapshotNoVideo>
-				<showSnapshotDelay>false</showSnapshotDelay>
-			<!-- bypass of resizing video -->
-				
+			</storyboard>
+			<delay>0.1</delay>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<showSnapshotDelay>false</showSnapshotDelay>
+			<!-- bypass of resizing video -->		
 			</video>
    </view>
 

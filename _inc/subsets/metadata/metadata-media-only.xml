@@ -21,6 +21,16 @@ license:        creative commons CC-BY-NC-SA
 			<color>ffffff</color>
 			<zIndex>2</zIndex>
 		</image>
+
+		<image ifSubset="background-art:nes" name="backgroundart" extra="true">
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>./_inc/systems/default/nesback2.png</path>
+			<tile>false</tile>
+			<color>ffffff</color>
+			<zIndex>2</zIndex>
+		</image>
 		<!-- Alt-Book style for all metadata background end -->
 
 		<!-- Logo -->
@@ -77,7 +87,7 @@ license:        creative commons CC-BY-NC-SA
 					<animation property="scale" from="1" to="1" duration="0" mode="easeOut"/>
 				</storyboard>
 				<delay>0.1</delay>
-				<showSnapshotNoVideo>false</showSnapshotNoVideo>
+				<showSnapshotNoVideo>true</showSnapshotNoVideo>
 				<showSnapshotDelay>false</showSnapshotDelay>
 			<!-- bypass of resizing video -->
       </video>
