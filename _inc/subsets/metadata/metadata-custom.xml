@@ -167,12 +167,21 @@ license:        creative commons CC-BY-NC-SA
 			<pos>0.729166666666667 0.40625</pos><!-- 350,130 -->
 			<maxSize>0.416666666666667 0.425</maxSize><!-- 200,200 -->
 		</image>
+		<!-- generic background  -->
 		<image ifSubset="background-art:centered|background-off|screenshots|carbon" name="backgroundart" extra="true">
 			<path>./_inc/systems/default/${airencolor}.jpg</path>
 		</image>
+		
+		<!-- background only for nes -->
 		<image ifSubset="background-art:nes" name="backgroundart" extra="true">
 			<path>./_inc/systems/default/nesback2.png</path>
 		</image>
+
+		<!-- background only for minimal -->
+		<image ifSubset="background-art:minimal" name="backgroundart" extra="true">
+			<path>./_inc/systems/default/fullscreen-minimal.jpg</path>
+		</image>
+
 		<image ifSubset="background-art:on" name="background-arts" extra="true">
 			<path>./_inc/systems/default/fullscreen.jpg</path>
 			<path>./_inc/systems/fullscreen-bg/basic/${system.theme}-gamelist-basic.jpg</path>
@@ -248,17 +257,31 @@ license:        creative commons CC-BY-NC-SA
 			<snapshotSource>image</snapshotSource>
 			<!-- bypass of resizing video -->
 		</video>
-		<image ifSubset="background-art:centered|background-off|screenshots|carbon" name="md-media-mask" extra="true">
-			<path>./_inc/systems/default/centered/${airencolor}.png</path>
-		</image>
-		<image ifSubset="background-art:nes" name="md-media-mask" extra="true">
-			<path>./_inc/systems/default/fullscreen-nes.png</path>
-		</image>
-		<image ifSubset="background-art:on" name="md-media-mask" extra="true">
-			<path>./_inc/systems/default/${airencolor}.png</path>
-			<path>./_inc/systems/fullscreen-bg/metadata/${system.theme}-gamelist-metadata.png</path>
-		</image>
+		
+		<!-- Magic section -->
 
+			<!-- Generic mask -->
+			<image ifSubset="background-art:centered|background-off|screenshots|carbon" name="md-media-mask" extra="true">
+				<path>./_inc/systems/default/centered/${airencolor}.png</path>
+			</image>
+
+			<!-- mask only for nes -->
+			<image ifSubset="background-art:nes" name="md-media-mask" extra="true">
+				<path>./_inc/systems/default/fullscreen-nes.png</path>
+			</image>
+
+			<!-- mask only for minimal -->
+			<image ifSubset="background-art:minimal" name="md-media-mask" extra="true">
+				<path>./_inc/systems/default/fullscreen-minimal.png</path>
+			</image>
+
+			<!-- mask only for fullscreens -->
+			<image ifSubset="background-art:on" name="md-media-mask" extra="true">
+				<path>./_inc/systems/default/${airencolor}.png</path>
+				<path>./_inc/systems/fullscreen-bg/metadata/${system.theme}-gamelist-metadata.png</path>
+			</image>
+
+		<!-- End of Magic -->
    </view>
 
 </theme>

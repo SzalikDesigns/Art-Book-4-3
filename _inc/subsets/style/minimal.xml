@@ -9,8 +9,8 @@ license:        creative commons CC-BY-NC-SA
 
 	<variables>
 		<!-- Default background colors -->
-		<backgroundCustomColor1>031321</backgroundCustomColor1>
-		<backgroundCustomColor2>031321</backgroundCustomColor2>
+		<backgroundCustomColor1>041b2d</backgroundCustomColor1>
+		<backgroundCustomColor2>041b2d</backgroundCustomColor2>
 		
 		<!-- Font Default color in menu -->
 		<customcolorstandard>999999</customcolorstandard>
@@ -23,7 +23,7 @@ license:        creative commons CC-BY-NC-SA
 		<metadataoff>metadata-light/metadata-off</metadataoff>
 
 		<!-- This option allows me to set different color overlays for the centered -->
-		<airencolor>fullscreen-nes</airencolor>
+		<airencolor>fullscreen-minimal</airencolor>
 	</variables>
 
 </theme>
