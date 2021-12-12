@@ -25,12 +25,12 @@ license:        creative commons CC-BY-NC-SA
 		<include name="yes" displayName="Yes">./_inc/subsets/logocolor/yes.xml</include>
 	</subset>
 
-	<!-- Theme Style -->
-	<subset name="themestyle" displayName="Theme Style: ">
+	<!-- Background Style -->
+	<subset name="themestyle" displayName="Background Style: ">
 		<include name="light" displayName="Gray">./_inc/subsets/style/light.xml</include>
 		<include name="dark" displayName="Dark">./_inc/subsets/style/dark.xml</include>
 		<include name="minimal" displayName="Minimal">./_inc/subsets/style/minimal.xml</include>
-		<include name="nes" displayName="Nes">./_inc/subsets/style/nes.xml</include>
+		<include name="nes" displayName="Nes-Box">./_inc/subsets/style/nes.xml</include>
 	</subset>
 
 	<!-- Color Sets -->
@@ -328,31 +328,31 @@ license:        creative commons CC-BY-NC-SA
 	</view>
 
     <!-- System View Art -->
-	<subset name="background-art" displayName="System View Art: ">
+	<subset name="background-art" displayName="System View Arts: ">
 		<include name="on" displayName="Full Screen">./_inc/subsets/backgrounds/background-art-fullscreen.xml</include>
 		<include name="centered" displayName="Centered ">./_inc/subsets/backgrounds/background-art-on.xml</include>
 		<include name="carbon" displayName="Carbon">./_inc/subsets/backgrounds/background-art-carbon.xml</include>
 		<include name="minimal" displayName="Minimal">./_inc/subsets/backgrounds/background-art-minimal.xml</include>
-		<include name="nes" displayName="Nes (WIP)">./_inc/subsets/backgrounds/background-art-nes.xml</include>
+		<include name="nes" displayName="Nes-Box (WIP)">./_inc/subsets/backgrounds/background-art-nes.xml</include>
 		<include name="screenshots" displayName="Screenshots (WIP)">./_inc/subsets/backgrounds/background-art-screenshots.xml</include>
 		<include name="background-off" displayName="No Artwork">./_inc/subsets/backgrounds/background-art-off.xml</include>
 	</subset>
 
 	<!-- Alternative System View Art Support -->
-	<subset name="88-mph" displayName="Alternative Arts: ">
+	<subset name="88-mph" displayName="Alt View Arts: ">
 		<include name="on" displayName="Off">./_inc/subsets/backgrounds/backgrounds-alt-off.xml</include>
 		<include name="off" displayName="On">./_inc/subsets/backgrounds/backgrounds-alt-on.xml</include>
 	</subset>
 
 	<!-- Game Count Display -->
-	<subset name="game-count" displayName="Games Count: ">
-		<include name="gamecount-off" displayName="Hide">./_inc/subsets/display/display-game-count-off.xml</include>
-		<include name="gamecount-on" displayName="Display">./_inc/subsets/display/display-game-count-on.xml</include>
+	<subset name="game-count" displayName="Games Counter: ">
+		<include name="gamecount-off" displayName="OFF">./_inc/subsets/display/display-game-count-off.xml</include>
+		<include name="gamecount-on" displayName="ON">./_inc/subsets/display/display-game-count-on.xml</include>
 	</subset>
 
 	<!-- Airen Thumbs - don't know how to made it yet -->
 	<subset name="airen-thumbs" displayName="Airen Thumbnail: ">
-		<include name="thumb-image" displayName="Box aka Image">./_inc/subsets/airen/md_image.xml</include>
+		<include name="thumb-image" displayName="Game Box">./_inc/subsets/airen/md_image.xml</include>
 		<include name="thumb-marquee" displayName="Game Logo">./_inc/subsets/airen/md_marquee.xml</include>
 	</subset>
 
