@@ -27,8 +27,8 @@ license:        creative commons CC-BY-NC-SA
 
 	<!-- Background Style -->
 	<subset name="themestyle" displayName="Background Style: ">
-		<include name="light" displayName="Gray">./_inc/subsets/style/light.xml</include>
-		<include name="dark" displayName="Dark">./_inc/subsets/style/dark.xml</include>
+		<include name="light" displayName="Normal">./_inc/subsets/style/light.xml</include>
+		<include name="dark" displayName="High Contrast">./_inc/subsets/style/dark.xml</include>
 		<include name="minimal" displayName="Minimal">./_inc/subsets/style/minimal.xml</include>
 		<include name="nes" displayName="Nes-Box">./_inc/subsets/style/nes.xml</include>
 	</subset>
@@ -141,7 +141,7 @@ license:        creative commons CC-BY-NC-SA
 			<horizontalMargin>0.008</horizontalMargin>
 			<selectorColor>4d4b4b</selectorColor>
 			<selectedColor>ffffff</selectedColor>
-			<primaryColor>ffffff44</primaryColor>
+			<primaryColor>b2b2b2</primaryColor>
 			<secondaryColor>ffffff44</secondaryColor>
 		</textlist>
 	</view>
@@ -340,8 +340,8 @@ license:        creative commons CC-BY-NC-SA
 
 	<!-- Alternative System View Art Support -->
 	<subset name="88-mph" displayName="Alt View Arts: ">
-		<include name="on" displayName="Off">./_inc/subsets/backgrounds/backgrounds-alt-off.xml</include>
-		<include name="off" displayName="On">./_inc/subsets/backgrounds/backgrounds-alt-on.xml</include>
+		<include name="off" displayName="Off">./_inc/subsets/backgrounds/backgrounds-alt-off.xml</include>
+		<include name="on" displayName="On">./_inc/subsets/backgrounds/backgrounds-alt-on.xml</include>
 	</subset>
 
 	<!-- Game Count Display -->
