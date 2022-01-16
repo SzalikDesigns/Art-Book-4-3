@@ -344,12 +344,6 @@ license:        creative commons CC-BY-NC-SA
 		<include name="gamecount-on" displayName="ON">./_inc/subsets/display/display-game-count-on.xml</include>
 	</subset>
 
-	<!-- Airen Thumbs - don't know how to made it yet -->
-	<subset name="airen-thumbs" displayName="Airen Thumbnail: ">
-		<include name="thumb-image" displayName="Game Box">./_inc/subsets/airen/md_image.xml</include>
-		<include name="thumb-marquee" displayName="Game Logo">./_inc/subsets/airen/md_marquee.xml</include>
-	</subset>
-
 	<!-- Metadata -->
 	<subset name="metadata" displayName="Metadata Style: ">
 		<include name="custommeta" displayName="Maximum">./_inc/subsets/metadata/metadata-max.xml</include>
