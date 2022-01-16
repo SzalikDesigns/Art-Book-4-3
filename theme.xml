@@ -54,9 +54,9 @@ license:        creative commons CC-BY-NC-SA
 			<pos>1 1</pos>
 		</helpsystem>
 		
-		<image ifSubset="background-art:on|carbon|screenshots" name="md-media-mask" extra="true">
+		<!--<image ifSubset="background-art:on|carbon|screenshots" name="md-media-mask" extra="true">
 			<path>./_inc/systems/default/mask.png</path>
-		</image>
+		</image>-->
 
 		<image name="logo">
 			<path>./_inc/systems/${logocolor}/${system.theme}.svg</path>
