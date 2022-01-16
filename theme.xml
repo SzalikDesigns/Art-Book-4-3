@@ -29,8 +29,6 @@ license:        creative commons CC-BY-NC-SA
 	<subset name="themestyle" displayName="Background Style: ">
 		<include name="light" displayName="Normal">./_inc/subsets/style/light.xml</include>
 		<include name="dark" displayName="High Contrast">./_inc/subsets/style/dark.xml</include>
-		<include name="minimal" displayName="Minimal">./_inc/subsets/style/minimal.xml</include>
-		<include name="nes" displayName="Nes-Box">./_inc/subsets/style/nes.xml</include>
 	</subset>
 
 	<!-- Color Sets -->
@@ -331,10 +329,6 @@ license:        creative commons CC-BY-NC-SA
 	<subset name="background-art" displayName="System View Arts: ">
 		<include name="on" displayName="Full Screen">./_inc/subsets/backgrounds/background-art-fullscreen.xml</include>
 		<include name="centered" displayName="Centered ">./_inc/subsets/backgrounds/background-art-on.xml</include>
-		<include name="carbon" displayName="Carbon">./_inc/subsets/backgrounds/background-art-carbon.xml</include>
-		<include name="minimal" displayName="Minimal">./_inc/subsets/backgrounds/background-art-minimal.xml</include>
-		<include name="nes" displayName="Nes-Box (WIP)">./_inc/subsets/backgrounds/background-art-nes.xml</include>
-		<include name="screenshots" displayName="Screenshots (WIP)">./_inc/subsets/backgrounds/background-art-screenshots.xml</include>
 		<include name="background-off" displayName="No Artwork">./_inc/subsets/backgrounds/background-art-off.xml</include>
 	</subset>
 
@@ -358,9 +352,8 @@ license:        creative commons CC-BY-NC-SA
 
 	<!-- Metadata -->
 	<subset name="metadata" displayName="Metadata Style: ">
-		<include name="custommeta" displayName="Airen Style">./_inc/subsets/metadata/metadata-custom.xml</include>
+		<include name="custommeta" displayName="Maximum">./_inc/subsets/metadata/metadata-max.xml</include>
 		<include name="minimum" displayName="Minimum">./_inc/subsets/metadata/metadata-min.xml</include>
-		<include name="maximum" displayName="Maximum">./_inc/subsets/metadata/metadata-max.xml</include>
 		<include name="media-only" displayName="Media Only">./_inc/subsets/metadata/metadata-media-only.xml</include>
 		<include name="meta-off" displayName="OFF">./_inc/subsets/metadata/metadata-off.xml</include>
 	</subset>
