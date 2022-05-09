@@ -31,20 +31,6 @@ Metadata
 
 ---
 
-# Configuration Options
-
-- Background Art: Toggle background art for system view under "UI Settings" > "Theme Configuration" > "Background Art" (video: https://youtu.be/YgpRxBTLgCU)
-  - Options:
-  - [Off] Don't display background art
-  - [Centered] Display centered background art
-  - [Full Screen] Display full screen background art
-- Metadata: Toggle metadata display for games view under "UI Settings" > "Theme Configuration" > "Metadata" (video: https://youtu.be/tCDM-nLCjQI)
-  - Options:
-  - [Off] Don't display game metadata
-  - [On] Display the following game metadata - Title, Description, Rating, Release Date
-
----
-
 # Acknowledgments
 - Original Theme used as a base here 3:2: **anthonycaccese** https://github.com/anthonycaccese
 - Nunito fonts by Vernon Adams
