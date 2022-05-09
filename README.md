@@ -31,7 +31,7 @@ Built and tested on [AmberELEC](https://AmberELEC.org).
 ---
 
 # Acknowledgments
-- Original Theme used as a base here 3:2: **anthonycaccese** https://github.com/anthonycaccese
+- Original Theme used as a base here 3:2: [anthonycaccese](https://github.com/anthonycaccese)
 - Nunito fonts by Vernon Adams
 - Alternative Centered System Images by **Freepik** 
 - Part of Carbon arts: fabricecaruso, tronkyfran 
