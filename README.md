@@ -11,15 +11,14 @@ Built and tested on [AmberELEC](https://AmberELEC.org).
 ---
 
 # Previews
-Fullscreen
 
-![image](https://user-images.githubusercontent.com/77732736/130350546-9ae276e6-cd8e-46e9-9202-a315c5c93485.png)
+### Systems
+  
+| Fullscreen | Centered |
+|----|----|
+| ![image](https://user-images.githubusercontent.com/77732736/130350546-9ae276e6-cd8e-46e9-9202-a315c5c93485.png) | ![image](https://user-images.githubusercontent.com/77732736/130350573-9c687e34-54d9-4cf0-9170-4d2a0d885fd7.png) |
 
-Centered
-
-![image](https://user-images.githubusercontent.com/77732736/130350573-9c687e34-54d9-4cf0-9170-4d2a0d885fd7.png)
-
-Metadata
+### Metadata
 
 ![image](https://user-images.githubusercontent.com/77732736/130350612-fb8a77a1-36ff-458a-8c5a-deb9c99924ee.png)
 
